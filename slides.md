@@ -3,7 +3,6 @@ marp: true
 theme: custom-tech
 paginate: true
 backgroundColor: #ffffff
-backgroundImage: url('wallpaperflare-cropped.jpg')
 style: |
   @import 'default';
   
@@ -109,6 +108,8 @@ Contact: 23f2005057@ds.study.iitm.ac.in
 ---
 
 # Introduction
+
+<!-- backgroundImage: url('wallpaperflare-cropped.jpg') -->
 
 ## What is API Gateway?
 
