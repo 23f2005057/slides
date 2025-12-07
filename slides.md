@@ -1,7 +1,6 @@
 ---
 marp: true
 title: "Product Documentation Presentation"
-description: "Technical Writer Presentation using Marp"
 paginate: true
 footer: "© 2025 — Documentation Team"
 theme: custom-theme
@@ -22,10 +21,6 @@ h1 {
   font-weight: 700;
 }
 
-p {
-  font-size: 1.1rem;
-}
-
 footer {
   color: #777;
 }
@@ -41,57 +36,48 @@ section::after {
 }
 </style>
 
-<!--
-Custom theme registration
--->
-<!--
-theme: custom-theme
--->
-
 # Product Documentation Overview  
 **Technical Writer: 23f2005057@ds.study.iitm.ac.in**
 
-Welcome to the official documentation presentation.  
-This slide deck demonstrates Marp features for maintainable, version-controlled documentation.
+This slide deck demonstrates how Marp supports maintainable, version-controlled documentation.
 
 ---
 
-# Features of This Documentation
+# Key Features
 
-- Custom Marp theme  
+- Custom theme  
 - Page numbers  
-- Background images  
-- Mathematical equations  
+- Background image  
+- Math equations  
 - Slide-level styling  
-- Git-friendly Markdown format
 
 ---
 
-<!-- Slide with background image -->
-<!-- Use any public image URL or local image -->
+<!-- Background image slide using your file -->
+<!-- wallpaperflare-cropped.jpg must be in the same folder -->
+<!-- This syntax is VALID for Marp -->
+
 <!--
 backgroundImage: url('wallpaperflare-cropped.jpg')
 backgroundSize: cover
 -->
 
-# Product Architecture  
+# System Architecture  
 ### (Background Image Slide)
 
-Our system follows a modular architecture optimized for scalability, speed, and reliability.
+This slide uses a local background image bundled with the documentation.
 
 ---
 
-# Algorithm Performance
+# Algorithmic Complexity
 
-We document computational behavior using mathematical notation:
-
-### Example: Time Complexity
+### Example Time Complexity
 
 \[
 T(n) = O(n \log n)
 \]
 
-### Example: Space Complexity
+### Example Space Complexity
 
 \[
 S(n) = \Theta(n)
@@ -99,33 +85,23 @@ S(n) = \Theta(n)
 
 ---
 
-# Custom-Styled Slide
-
 <style scoped>
 section {
   background-color: #eef7ff;
   border-left: 10px solid #005bbb;
 }
-h1 {
-  color: #003f7f;
-}
 </style>
 
-# API Contracts
+# API Documentation
 
-- REST + JSON interface  
-- Strict schema validation  
-- Backwards compatibility guaranteed
+- REST + JSON  
+- Schema validation  
+- Backward compatibility  
 
 ---
 
 # Thank You!
 
-Documentation maintained in version control and exportable to:
-
-- PDF  
-- HTML  
-- PowerPoint (via Marp CLI)
-
-Contact: **23f2005057@ds.study.iitm.ac.in**
+Contact: **23f2005057@ds.study.iitm.ac.in**  
+Marp presentation exportable to PDF, HTML, and PPT.
 
