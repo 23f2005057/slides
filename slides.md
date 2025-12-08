@@ -1,18 +1,18 @@
 ---
 marp: true
 title: My presentation
-author: Mayank Kumar Poddar
+author: Sumit
 theme: gaia
 paginate: true
 header: 'Product Documentation'
-footer: '23f3004197@ds.study.iitm.ac.in'
+footer: '23f2005057@ds.study.iitm.ac.in'
 math: mathjax
 ---
 
 <!-- _class: lead -->
 # Product Documentation
 
-**Email:** 23f3004197@ds.study.iitm.ac.in
+**Email:** 23f2005057@ds.study.iitm.ac.in
 
 ---
 
@@ -38,3 +38,4 @@ This slide has a full background image.
 ```python
 def greet():
     print("Hello from Marp!")
+
